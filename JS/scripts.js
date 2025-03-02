@@ -19,7 +19,7 @@ $(document).ready(function() {
     }, function(){
         $("img").attr("src", "https://cdn.forbes.com.mx/2018/09/cancun_0-e1537917376271-640x360.jpg")
     });
-
+    
     //  **Efectos**
     $("#ocultar").click(function(){
         $(".contenido p").hide();

@@ -86,14 +86,14 @@ body {
     border-radius: 4px;
   }
   form input[type="submit"] {
-    background-color: #2a5298; /* Color del botón complementario al header */
+    display: inline-block;
+    padding: 8px 12px;
+    background: #2a5298;
     color: #fff;
-    border: none;
-    padding: 0.7em 1.5em;
-    margin-top: 1em;
-    border-radius: 4px;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3px;
   }
+  
   form input[type="submit"]:hover {
     background-color: #1e3c72;
   }
@@ -115,3 +115,65 @@ body {
     text-decoration: underline; /* Subrayado al pasar el cursor */
   }
   
+  main div [id='ocultar']{
+    display: inline-block;
+    padding: 8px 12px;
+    background: #2a5298;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+  main div [id='mostrar']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+  main div [id='alternar']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+main div [id='agregarDestino']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+main div [id='eliminarDestino']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+main div [id='mover']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+section div [id='resaltarFormulario']{
+  display: inline-block;
+  padding: 8px 12px;
+  background: #2a5298;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
