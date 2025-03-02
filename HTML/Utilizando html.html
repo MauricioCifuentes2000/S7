@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorando el Mundo</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../HTML/img/Mundo.png">
+  <!-- Vinculación del archivo CSS externo -->
+  <link rel="stylesheet" href="../CSS/layout.css">
+  <script src="../JQuery/jquery.min.js"></script>
+  <script src="../JS/scripts.js"></script>
+</head>
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <h1>Explorando el Mundo</h1>
+    <!-- Menú de navegación -->
+    <nav>
+      <ul>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main>
+    <!-- Sección de contenido principal -->
+    <section class="contenido">
+      <h2 id="destinos">Destinos Populares</h2>
+      <p>
+        Viajar es una experiencia <b>inolvidable</b> que enriquece el alma. <br>
+        Es <i>fundamental</i> explorar nuevos horizontes y culturas.
+      </p>
+      <ul id="lista-destinos">
+        <li name="paris">París, Francia</li>
+        <br>
+        <li name="tokyo">Tokio, Japón</li>
+        <br>
+        <li name="ny">Nueva York, USA</li>
+        <br>
+      </ul>
+      <img src="https://cdn.forbes.com.mx/2018/09/cancun_0-e1537917376271-640x360.jpg" alt="Imagen de un destino turístico">
+      <p>
+        Para más información, visita 
+        <a href="https://www.lonelyplanet.com" target="_blank">Lonely Planet</a>.
+      </p>
+
+      <!-- Botones de interacción -->
+      <div class="botones">
+        <button id="ocultar">Ocultar Párrafos</button>
+        <button id="mostrar">Mostrar Párrafos</button>
+        <button id="alternar">Alternar Párrafos</button>
+        <button id="agregarDestino">Agregar Destino</button>
+        <button id="eliminarDestino">Eliminar Último Destino</button>
+        <button id="mover">Mover Contenido</button>
+      </div>
+    </section>
+
+    <!-- Barra lateral con contenido adicional -->
+    <aside>
+      <h3>Noticias Recientes</h3>
+      <p>Entérate de las últimas tendencias en viajes y recomendaciones para turistas.</p>
+      <ol>
+        <li>Nuevas rutas aéreas</li>
+        <li>Promociones en hoteles</li>
+        <li>Eventos culturales en el mundo</li>
+      </ol>
+    </aside>
+  </main>
+
+  <!-- Sección de contacto con un formulario -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre"><br>
+
+      <label for="email">Correo:</label>
+      <input type="email" id="email" name="email" placeholder="Ingresa tu correo"><br>
+
+      <p>Género:</p>
+      <input type="radio" id="masculino" name="genero" value="masculino">
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" id="femenino" name="genero" value="femenino">
+      <label for="femenino">Femenino</label><br>
+
+      <p>Intereses:</p>
+      <input type="checkbox" id="aventura" name="intereses" value="aventura">
+      <label for="aventura">Aventura</label><br>
+      <input type="checkbox" id="cultura" name="intereses" value="cultura">
+      <label for="cultura">Cultura</label><br>
+
+      <label for="pais">País de Origen:</label>
+      <select id="pais" name="pais">
+        <option value="mx">México</option>
+        <option value="es">España</option>
+        <option value="ar">Argentina</option>
+      </select><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje aquí..."></textarea><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Botón de prueba de eventos -->
+    <div class="botones">
+      <button id="resaltarFormulario">Resaltar Formulario</button>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Explorando el Mundo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
